@@ -1,2 +1,2 @@
-# js-hindi1
+# js-hindi
 A code repo for JavaScript series for portfolio.
