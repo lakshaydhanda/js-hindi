@@ -32,4 +32,28 @@ const myFunction = function(){
     console.log("Hello world");
 }  // Datatype is {function} by using (typeof) for function but it is [object]
 
-console.log(typeof score);
+// console.log(typeof score);
+
+// *******************************************************************************************
+
+// Satck(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "lakshaydhanda@gmail.com"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "lakshay@google.com"
+
+console.log(userOne);
+console.log(userTwo);
