@@ -22,7 +22,7 @@ const bigNumber = 67857638937487963789n // Datatype is {Bigint} by using (typeof
 
 // Array, Objects, Functions
 
-const heros = ["Saktiman", "naagraj", "dogga"] // Datatype is {object} by using (typeof) for array
+const heroes = ["Saktiman", "naagraj", "dogga"] // Datatype is {object} by using (typeof) for array
 let myObj = {
     name:"Lakshay",
     age:44,
